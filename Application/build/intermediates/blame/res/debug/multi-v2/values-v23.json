@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\dev\\Camera2BasicSample\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\dev\\android-camera-stickers\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Laptop10\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a09dc0be5b34a41eedf7a2a65b26a774\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\17bd6963c92faeae75b40897d4b603a8\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Laptop10\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.2.aar\\079238e4a24584efb2894bab689082a1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.0.2.aar\\685690f299e95eb870f292f86ce29ac4\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

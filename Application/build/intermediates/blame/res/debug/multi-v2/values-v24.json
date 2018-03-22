@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\dev\\Camera2BasicSample\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\dev\\android-camera-stickers\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Laptop10\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a09dc0be5b34a41eedf7a2a65b26a774\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\17bd6963c92faeae75b40897d4b603a8\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Laptop10\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\6e217bdae422a9d1bbecb9e56f683722\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\d8c98bc536d4b127cec56607c0e297d8\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\dev\\Camera2BasicSample\\Application\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ka\\values-ka.xml",
+            "outputFile": "C:\\dev\\android-camera-stickers\\Application\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ka\\values-ka.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Laptop10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5fb697dd2e69658404940bb666901cb4\\res\\values-ka\\values-ka.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\9eac724731c33c2d4b7642e2ecd9deea\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Laptop10\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a09dc0be5b34a41eedf7a2a65b26a774\\res\\values-ka\\values-ka.xml",
+                    "source": "C:\\Users\\Darwin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\17bd6963c92faeae75b40897d4b603a8\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
