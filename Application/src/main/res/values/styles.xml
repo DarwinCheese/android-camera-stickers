@@ -14,7 +14,22 @@
  limitations under the License.
 -->
 <resources>
+    <color name="orange">#f58020</color>
     <style name="MaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/Widget.Button</item>
         <item name="android:windowFullscreen">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/black</item>
+    </style>
+    <style name="YC.Button" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="Widget.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/orange</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
     </style>
 </resources>

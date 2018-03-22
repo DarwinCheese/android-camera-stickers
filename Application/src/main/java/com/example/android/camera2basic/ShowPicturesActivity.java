@@ -3,6 +3,7 @@ package com.example.android.camera2basic;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -18,6 +19,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.xiaopo.flying.sticker.StickerView;
 import com.xiaopo.flying.sticker.TextSticker;
@@ -31,12 +33,14 @@ import java.io.IOException;
 public class ShowPicturesActivity extends AppCompatActivity {
 
     private static final int PICK_IMAGE = 1;
-    private Button toGalleryBtn;
+    private Button toGalleryBtn, clearStickersBtn;
     private ImageView galleryImage;
+    private Bitmap correctImage;
     private static final String TAG = ShowPicturesActivity.class.getSimpleName();
-    public static final int PERM_RQST_CODE = 110;
+    private static final int PERM_RQST_CODE = 110;
     private StickerView stickerView;
     private TextSticker sticker;
+    private Uri selectedimg;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,18 +58,34 @@ public class ShowPicturesActivity extends AppCompatActivity {
                 startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMAGE);
             }
         });
+
+        clearStickersBtn = findViewById(R.id.clearStickersBtn);
+        clearStickersBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(selectedimg != null) {
+                    Intent in1 = new Intent(ShowPicturesActivity.this, EditPictureActivity.class);
+                    in1.putExtra("imageUri", selectedimg);
+                    startActivity(in1);
+                }else {
+                    Toast.makeText(ShowPicturesActivity.this, "Kies eerst een foto!", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+
+
     }
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data)
     {
         if (requestCode == PICK_IMAGE) {
-            Uri selectedimg = data.getData();
+            selectedimg = data.getData();
             String imagePath = getPath(this, selectedimg);
 
             try {
                 Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedimg);
-                Bitmap correctImage = modifyOrientation(bitmap,imagePath);
+                correctImage = modifyOrientation(bitmap,imagePath);
                 galleryImage.setImageBitmap(correctImage);
             } catch (IOException e) {
                 e.printStackTrace();
@@ -219,6 +239,5 @@ public class ShowPicturesActivity extends AppCompatActivity {
         matrix.preScale(horizontal ? -1 : 1, vertical ? -1 : 1);
         return Bitmap.createBitmap(bitmap, 0, 0, bitmap.getWidth(), bitmap.getHeight(), matrix, true);
     }
-
 
 }

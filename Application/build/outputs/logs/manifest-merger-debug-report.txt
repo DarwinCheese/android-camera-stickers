@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:18:1-42:12
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:18:1-44:12
 MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Laptop10\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\fbd3d0bde378a7a859de74baaa333d6e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Laptop10\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\8a5b489366f44215f1e913c04304fc2e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Laptop10\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\079238e4a24584efb2894bab689082a1\AndroidManifest.xml:17:1-22:12
@@ -34,44 +34,54 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:25:5-80
 	android:name
 		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:26:22-77
 application
-ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:27:5-40:19
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:28:5-42:19
 MERGED from [com.flying.xiaopo:sticker:1.6.0] C:\Users\Laptop10\.gradle\caches\transforms-1\files-1.1\sticker-1.6.0.aar\c69ab781c883a07b81f5219ff39c9ecd\AndroidManifest.xml:11:5-15:19
 MERGED from [com.flying.xiaopo:sticker:1.6.0] C:\Users\Laptop10\.gradle\caches\transforms-1\files-1.1\sticker-1.6.0.aar\c69ab781c883a07b81f5219ff39c9ecd\AndroidManifest.xml:11:5-15:19
 	android:supportsRtl
 		ADDED from [com.flying.xiaopo:sticker:1.6.0] C:\Users\Laptop10\.gradle\caches\transforms-1\files-1.1\sticker-1.6.0.aar\c69ab781c883a07b81f5219ff39c9ecd\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:28:9-41
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:29:9-41
 	android:icon
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:29:9-45
-	android:allowBackup
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:27:18-44
-	android:theme
 		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:30:9-45
+	android:allowBackup
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:28:18-44
+	android:theme
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:31:9-45
 activity#com.example.android.camera2basic.CameraActivity
-ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:32:9-38:20
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:33:9-39:20
 	android:screenOrientation
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:33:52-88
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:34:52-88
 	android:label
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:33:19-51
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:34:19-51
 	android:name
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:32:19-49
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:33:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:34:13-37:29
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:35:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:37:27-74
 activity#com.example.android.camera2basic.ShowPicturesActivity
-ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:39:9-104
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:40:9-104
 	android:screenOrientation
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:39:56-92
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:40:56-92
 	android:name
-		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:39:19-55
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:40:19-55
+activity#com.example.android.camera2basic.EditPictureActivity
+ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:41:9-103
+	android:screenOrientation
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:41:55-91
+	android:name
+		ADDED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml:41:19-54
 uses-sdk
 INJECTED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\dev\Camera2BasicSample\Application\src\main\AndroidManifest.xml

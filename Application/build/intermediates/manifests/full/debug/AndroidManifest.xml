@@ -27,6 +27,7 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -34,6 +35,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/MaterialTheme" >
         <activity
             android:name="com.example.android.camera2basic.CameraActivity"
@@ -47,6 +49,9 @@
         </activity>
         <activity
             android:name="com.example.android.camera2basic.ShowPicturesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.android.camera2basic.EditPictureActivity"
             android:screenOrientation="portrait" />
     </application>
 
